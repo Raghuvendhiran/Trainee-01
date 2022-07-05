@@ -1,0 +1,57 @@
+body {
+    margin: 1em;
+    padding: 1em;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.Bac {
+    background-color: rgb(124, 194, 118);
+    padding: 2em;
+}
+
+.label {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    padding: 1em;
+    display: flex;
+}
+
+.box {
+    border: none;
+    margin: 1em;
+    padding: 0.8em;
+    border-radius: 0.8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 16em;
+    height: 1.5em;
+    display: flex;
+}
+
+.mar {
+    margin: 0.8 em;
+    Padding: 0.8em;
+}
+
+.button {
+    padding: 0.5em 1.3em;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-radius: 0.6em;
+    background-color: rgb(231, 229, 66);
+    color: rgb(198, 12, 245);
+}
+
+#reset {
+    margin: 1.5em;
+}
+
+.button:hover {
+    box-shadow: 2px 1px 13px 1px rgb(253, 8, 20);
+    transition: box shadow 0.10 ease-in;
+}
